@@ -16,7 +16,7 @@ public class IdentityMatrix {
     public static void printMatrix (double[][]arr){
         for(int x=0; x<arr.length;x++){
             for(int y=0; y<arr[x].length;y++){
-                System.out.print(arr[x][y] + "\t");
+                System.out.print(arr[x][y] + "\t"); //  "/t" ist ein Tabulator, bewirkt, dass zwischen Werten etwas Abstand ist
             }
             System.out.println();
         }
